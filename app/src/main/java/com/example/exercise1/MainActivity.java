@@ -85,8 +85,8 @@ public class MainActivity extends AppCompatActivity {
                 int x,y;
                 while(true)
                 {
-                    x=rd.nextInt(4);//0->3 (b-a+1)+a;
-                    y=rd.nextInt(13)+1;//1->13
+                    x=rd.nextInt(4);
+                    y=rd.nextInt(13)+1;
                     if(cacladarut.contains(mangtenbai[x][y])==false)
                     {
                         cacladarut.add(mangtenbai[x][y]);
